@@ -9,11 +9,12 @@ function Book(title, author, isbn) {
 function UI() {
 
 }
-
+//Add Book to list
 UI.prototype.addBookToList = function(book) {
     const list = document.getElementById('book-list');
     //create tr element
     const row = document.createElement('tr');
+   
 }
 
 

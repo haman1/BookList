@@ -81,6 +81,11 @@ function(e) {
     
     //Add Book to list
     ui.addBookToList(book);
+
+    
+    // Show success
+    ui.showAlert('Book Added!', 'success');
+  
   
     // clear fields
     ui.clearFields();
